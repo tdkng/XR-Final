@@ -1,6 +1,9 @@
 .DS_Store
+.vs/*
 *.csproj
 *.sln
 /Library/*
 /Temp/*
 /Logs/
+*DoNotShip/
+ProjectSettings/BurstAotSettings_Android.json

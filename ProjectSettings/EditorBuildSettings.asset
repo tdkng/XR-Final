@@ -5,7 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+    guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cf95de1781b16404eb633c2dd7778ff4,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d1fdf9e0380140b9bebdef5713ee11a,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 909cea11e4a554ec7818353871f0c015,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 893a3d0baab684f54b20a2009d858894,
+      type: 2}
